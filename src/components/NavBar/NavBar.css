@@ -1,0 +1,34 @@
+.FM-nav-bar {
+    height: 80px;
+    padding: 0 100px;
+}
+
+.FM-nav-bar-scroll {
+    background-color: var(--primary-color);
+}
+
+.FM-logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.FM-nav-dark {
+    color: var(--primary-color) !important;
+}
+
+.FM-ul {
+    width: 261px !important;
+}
+
+.FM-nav-link {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .FM-nav-bar {
+        padding: 0 40px;
+    }
+}

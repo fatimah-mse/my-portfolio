@@ -1,0 +1,18 @@
+.FM-skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 56px;
+}
+
+.FM-skills-cards div:hover {
+    transform: translateY(20px);
+}
+
+@media (min-width:768px) {
+    .FM-skills-cards:hover > div:not(:hover) {
+        transform: translateY(-20px);
+        filter: blur(5px);
+    }
+}

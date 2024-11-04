@@ -1,0 +1,43 @@
+.MH-form {
+    width: 49.075%;
+}
+
+.MH-form input ,
+.MH-form textarea {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--primary-color);
+    display: block;
+    width: 100%;
+    background-color: var(--input-bg-color);
+    padding: 21px 30px;
+    margin-bottom: 20px; 
+    border: none;
+}
+
+.MH-form textarea {
+    height: 231px;
+    margin-bottom: 40px !important;
+}
+
+.MH-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 25px 82px;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.MH-btn:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width:768px) {
+    .MH-form {
+        width: 100%;
+    }
+}

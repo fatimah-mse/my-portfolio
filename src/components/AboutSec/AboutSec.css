@@ -1,0 +1,16 @@
+.MH-about-desc {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 60px;
+}
+
+.MH-about-sec .FM-p {
+    margin-bottom: 0;
+    color: var(--secondary-color);
+}
+
+.MH-about-sec .MH-p-green {
+    color: var(--off-white-color) !important;
+    background-color: var(--green-color) !important;
+}

@@ -1,0 +1,23 @@
+.MH-footer {
+    padding: 39.5px 100px;
+    background-color: var(--primary-color);
+}
+
+.MH-h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+    .MH-footer {
+        padding: 30px 87px;
+    }
+    .MH-h6 {
+        font-size: 1.125rem;
+        line-height: 30px;
+    }
+}

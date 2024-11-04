@@ -1,0 +1,82 @@
+.FM-hero {
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FM-hero-bg {
+    background-color: var(--pink-color);
+}
+
+.FM-description {
+    width: 50%;
+}
+
+.FM-h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.FM-hero .FM-h5 {
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:900px) {
+    .FM-hero .FM-img {
+        max-width: 320px !important;
+        max-height: 424px;
+    }
+
+    .FM-description {
+        max-width: 100%;
+    }
+
+    .FM-reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .FM-hero {
+        height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .FM-h1 {
+        font-size: 3rem;
+    }
+
+    .FM-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .FM-hero div,
+    .FM-hero img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .FM-hero .FM-p-reverse {
+        margin-bottom: 0 !important;
+    }
+
+    .FM-hero .FM-p {
+        margin-bottom: 60px;
+    }
+    
+    .FM-hero .FM-img-reverse {
+        margin-bottom: 60px !important;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .FM-h1 {
+        font-size: 3rem;
+    }
+}

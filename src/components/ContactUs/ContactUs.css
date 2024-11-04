@@ -1,0 +1,41 @@
+.MH-contact {
+    margin: 0 100px;
+    border-top: 2px solid var(--border-color);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.MH-contact-right-sec {
+    width: 33.334%;
+}
+
+.MH-contact .FM-h2 {
+    text-align: start;
+    margin-bottom: 40px !important;
+}
+
+.MH-contact .FM-p {
+    margin-bottom: 60px !important;
+}
+
+.MH-contact-links {
+    margin-bottom: 80px;
+}
+
+.MH-contact-link {
+    margin-right: 13px;
+}
+
+@media screen and (max-width:768px) {
+    .MH-contact {
+        margin: 0 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .MH-contact-right-sec {
+        width: 100%;
+    }
+}
